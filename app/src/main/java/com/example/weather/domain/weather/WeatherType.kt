@@ -1,12 +1,15 @@
 package com.example.weather.domain.weather
 
 import androidx.annotation.DrawableRes
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.tooling.preview.Preview
 import com.example.weather.R
 
 sealed class WeatherType(
     val weatherDesc: String,
     @DrawableRes val iconRes: Int
 ) {
+
     object ClearSky : WeatherType(
         weatherDesc = "Clear sky",
         iconRes = R.drawable.ic_sunny
