@@ -56,11 +56,11 @@ fun WeatherCard(
                     modifier = Modifier.width(200.dp)
                 )
                 Spacer(modifier = Modifier.height(16.dp))
-                Text(
-                    text = "${data.temperatureCelsius}°C",
-                    fontSize = 50.sp,
-                    coclor = Color.White
-                )
+//                Text(
+//                    text = "${data.temperatureCelsius}°C",
+//                    fontSize = 50.sp,
+//                    coclor = Color.White
+//                )
                 Spacer(modifier = Modifier.height(16.dp))
                 Text(
                     text = data.weatherType.weatherDesc,
